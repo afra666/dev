@@ -1,0 +1,35 @@
+//index.html
+
+<!DOCTYPE html>
+<head>
+    <style>
+        *{
+            margin: 0;
+            padding: 0;
+        }
+    </style>
+    <script type="text/javascript" src="Game.js" ></script>
+</head>
+<body onload="Game()">
+<canvas id="myCanvas" width="400" height="600"></canvas>
+</body>
+</html>
+
+
+
+
+
+//Game.js
+function Game() {
+    var canvas=document.getElementById("myCanvas");
+    var ctx=canvas.getContext('2d');
+    ctx.fillStyle="#000056";
+    ctx.fillRect(0,0,100,100)
+    f();
+}
+function f() {
+    alert("x");
+}
+
+
+
