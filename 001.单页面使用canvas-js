@@ -1,0 +1,18 @@
+<!DOCTYPE html>
+<html lang="zh-cn">
+<head>
+    <meta charset="UTF-8">
+    <title>index</title>
+    <script type="text/javascript" >
+        function run() {
+            var canvas=document.getElementById("myCanvas");
+            var ctx=canvas.getContext('2d');
+            ctx.fillStyle="#000056";
+            ctx.fillRect(10,10,100,100)
+        }
+    </script>
+</head>
+<body onload="run()">
+<canvas id="myCanvas" width="400" height="600"></canvas>
+</body>
+</html>
